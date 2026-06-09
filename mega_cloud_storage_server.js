@@ -211,7 +211,9 @@ app.delete("/delete/:nodeId", async (req, res) => {
 });
 
 
-
+app.post("/wakeup", (req, res) => {
+    res.end();
+});
 // ==============================
 const PORT = process.env.PORT || 3000;
 
