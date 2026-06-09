@@ -212,6 +212,7 @@ app.delete("/delete/:nodeId", async (req, res) => {
 
 
 app.post("/wakeup", (req, res) => {
+    console.log("wokeup");
     res.end();
 });
 // ==============================
