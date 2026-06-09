@@ -197,7 +197,7 @@ app.delete("/delete/:nodeId", async (req, res) => {
             });
         });
 
-        console.log("✅ File deleted");
+        console.log("✅ File Deleted");
 
         res.json({
             success: true,
